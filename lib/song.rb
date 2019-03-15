@@ -40,8 +40,8 @@ def self.alphabetical
 @@all.sort_by{|a| a.name}
 end
 
-def self.new_from_filename(format)
-@artist_name name
+def self.new_from_filename(@name, @artist_name)
+
 end
 
 end
