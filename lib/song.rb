@@ -40,7 +40,7 @@ def self.alphabetical
 @@all.sort_by{|a| a.name}
 end
 
-def
+def self.new_from_filename(name)
 
 end
 
