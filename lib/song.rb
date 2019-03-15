@@ -41,7 +41,7 @@ def self.alphabetical
 end
 
 def self.new_from_filename(format)
-@artist_name "-" @name
+@artist_name  @name
 end
 
 end
